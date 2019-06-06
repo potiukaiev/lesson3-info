@@ -10,6 +10,19 @@ body .test {
 	padding: 12px;
 	color: grey;
 }
+nav{
+	display: flex;
+	justify-content: flex-end;
+
+}
+nav .nav-link {
+	display: inline-block;
+	margin-right: 12px 0 0 0;
+}
+
+header{
+	padding: 24px 12px;
+}
 
 div.test-2.test {
 	color: green;
@@ -33,3 +46,7 @@ div.test span {
 	display: block;
 }
 
+.someclass{
+flex-direction: row-reverse;
+flex-direction: column-reverse;
+}
